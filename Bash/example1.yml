@@ -5,7 +5,7 @@ resources:
       gitProvider: my_github
       path: nethrasruthinethra/new   # replace jfrog with your username or org name
       branches:
-        include: master
+        include: main
   - name: myBuildInfo
     type: BuildInfo
     configuration:
