@@ -2,8 +2,8 @@ resources:
   - name: myGitRepo
     type: GitRepo
     configuration:
-      gitProvider: myGithub
-      path: jfrog/pipelines-steps-examples.   # replace jfrog with your username or org name
+      gitProvider: my_github
+      path: nethrasruthinethra/new   # replace jfrog with your username or org name
       branches:
         include: master
   - name: myBuildInfo
